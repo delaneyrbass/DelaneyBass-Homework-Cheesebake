@@ -21,6 +21,32 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/footer\/location-arrow-light.png" : {
+      "ft" : 32768,
+      "iS" : 821,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footer\/location-arrow-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/footer\/mobile-android-light.png" : {
+      "ft" : 32768,
+      "iS" : 423,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/footer\/mobile-android-light.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-1\/Hero-1.png" : {
       "ft" : 32768,
       "iS" : 187622,
@@ -184,6 +210,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/structure-tags.sketch",
+      "oF" : 0
+    },
+    "\/dev\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/footer.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
