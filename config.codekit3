@@ -99,6 +99,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/header\/cheesebake-logo.png" : {
+      "ft" : 32768,
+      "iS" : 3486,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/cheesebake-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-1\/Hero-1.png" : {
       "ft" : 32768,
       "iS" : 187622,
@@ -160,6 +173,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-3\/cheese-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 21069,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-3\/cheese-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -286,6 +312,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/scripts.html",
+      "oF" : 0
+    },
+    "\/dev\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/header.html",
       "oF" : 0
     },
     "\/dev\/index.kit" : {
