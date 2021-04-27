@@ -1,0 +1,36 @@
+/* =============
+    Hero 2 aka Section 2
+============= */
+#hero-2 {
+    display: grid;
+    grid-template-columns: auto;
+
+    #near{
+        display: grid;
+        grid-template-areas: 16px auto "cheesecake slices";
+
+        img {
+            
+        }
+    }
+    #tips{
+        display: grid;
+        grid-template-columns: 
+        16px auto "cheesecake slices";
+        grid-template-areas: ".hero-2";
+
+        img {
+            
+        }
+    }
+    ul {
+        display: grid;
+        gap: 0px;
+        grid-template-areas: 
+        "Hero-1"
+        "Hero-2";
+        img {
+            max-width: 100%;
+        }
+    }
+}

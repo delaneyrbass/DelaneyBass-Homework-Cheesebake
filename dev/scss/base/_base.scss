@@ -3,3 +3,11 @@
 ============= */
 h1{font-family: 'Abril Fatface', cursive;}
 h2{font-family: 'Antic Slab', serif;}
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}

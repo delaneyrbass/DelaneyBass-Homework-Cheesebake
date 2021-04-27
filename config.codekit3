@@ -125,6 +125,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/section-2\/Hero-1.png" : {
+      "ft" : 32768,
+      "iS" : 486828,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-2\/Hero-1.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/section-2\/Hero-2.png" : {
+      "ft" : 32768,
+      "iS" : 354848,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/section-2\/Hero-2.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-2\/icon-1.png" : {
       "ft" : 32768,
       "iS" : 15599,
@@ -229,32 +255,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/section-3\/Hero-1.png" : {
-      "ft" : 32768,
-      "iS" : 486828,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/Hero-1.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/section-3\/Hero-2.png" : {
-      "ft" : 32768,
-      "iS" : 354848,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/section-3\/Hero-2.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -280,6 +280,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/homeworkDemo 2 2.sketch",
+      "oF" : 0
+    },
+    "\/design\/homeworkDemo 2 3.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/homeworkDemo 2 3.sketch",
       "oF" : 0
     },
     "\/design\/homeworkDemo 2.sketch" : {
@@ -516,6 +524,48 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero-2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero-2.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero-3.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero-3.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

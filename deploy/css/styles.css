@@ -360,6 +360,14 @@ h2 {
   font-family: "Antic Slab", serif;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
 /* =============
     Typography
 ============= */
@@ -395,6 +403,75 @@ a {
 /* =============
     Header
 ============= */
+#header {
+  background-color: #F2C391;
+}
+
 /* =============
     Footer
 ============= */
+/* =============
+    Hero aka Section 1
+============= */
+#hero img {
+  max-width: 100%;
+}
+#hero #beginner {
+  background-color: #B24A33;
+}
+#hero #location {
+  background-color: #D48128;
+}
+
+/* =============
+    Hero 2 aka Section 2
+============= */
+#hero-2 {
+  display: grid;
+  grid-template-columns: auto;
+}
+#hero-2 #near {
+  display: grid;
+  grid-template-areas: 16px auto "cheesecake slices";
+}
+#hero-2 #tips {
+  display: grid;
+  grid-template-columns: 16px auto "cheesecake slices";
+  grid-template-areas: ".hero-2";
+}
+#hero-2 ul {
+  display: grid;
+  gap: 0px;
+  grid-template-areas: "Hero-1" "Hero-2";
+}
+#hero-2 ul img {
+  max-width: 100%;
+}
+
+/* =============
+    Hero 3 aka Section 3
+============= */
+#hero-3 {
+  display: grid;
+  grid-template-areas: ".section-3";
+}
+#hero-3 > div {
+  grid-area: section-3;
+}
+#hero-3 > div ul {
+  display: grid;
+  gap: 18px;
+  grid-template-areas: "#coco" "#jelly" "#classic" "#single" "#orange";
+}
+@media (min-width: 768px) {
+  #hero-3 > div ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#coco #jelly" "#classic #single" "#orange";
+  }
+}
+@media (min-width: 1024px) {
+  #hero-3 > div ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "#coco #jelly #classic" " #single #orange";
+  }
+}
