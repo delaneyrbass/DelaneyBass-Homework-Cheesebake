@@ -410,6 +410,31 @@ a {
 /* =============
     Footer
 ============= */
+#footer {
+  display: grid;
+  grid-template-areas: ".footer";
+}
+#footer > div {
+  grid-area: footer;
+}
+#footer > div ul {
+  display: grid;
+  gap: 18px;
+  grid-template-areas: "#nyc" "#cali" "#mass" "#news" "#socials";
+}
+@media (min-width: 768px) {
+  #footer > div ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#nyc #news" "#cali #socials" "#mass";
+  }
+}
+@media (min-width: 1024px) {
+  #footer > div ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "#nyc #news #socials" "#cali" "#mass";
+  }
+}
+
 /* =============
     Hero aka Section 1
 ============= */
@@ -466,7 +491,7 @@ a {
 @media (min-width: 768px) {
   #hero-3 > div ul {
     grid-template-columns: 50% auto;
-    grid-template-areas: "#coco #jelly" "#classic #single" "#orange";
+    grid-template-areas: "#coco #jelly" "#classic #single" "#orange #orange";
   }
 }
 @media (min-width: 1024px) {

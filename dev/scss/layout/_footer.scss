@@ -2,5 +2,39 @@
     Footer
 ============= */
 #footer{
-    
+    display: grid;
+    grid-template-areas: ".footer";
+
+    >div {
+        grid-area: footer;
+        ul {
+            display: grid;
+            gap: 18px;
+            grid-template-areas: 
+            "#nyc"
+            "#cali"
+            "#mass"
+            "#news"
+            "#socials"
+            ;
+
+            @include md {
+                grid-template-columns: 50% auto;
+                grid-template-areas: 
+                "#nyc #news"
+                "#cali #socials"
+                "#mass"
+                ;
+            }
+            @include lg {
+                grid-template-columns: repeat(3,1fr);
+                grid-template-areas: 
+                "#nyc #news #socials"
+                "#cali"
+                "#mass"
+                ;
+            }
+        }
+
+    }
 }

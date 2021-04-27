@@ -24,7 +24,7 @@
                 grid-template-areas: 
                 "#coco #jelly"
                 "#classic #single"
-                "#orange";
+                "#orange #orange";
             }
             @include lg {
                 grid-template-columns: repeat(3, 1fr);
