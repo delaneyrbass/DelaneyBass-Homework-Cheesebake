@@ -2,13 +2,25 @@
     Hero aka Section 1
 ============= */
 #hero {
-    img {
-    max-width: 100%;
+    
+    >div{
+        img{
+            display: block;
+            max-width: 100%;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0px;
+        }
 }
+
 #beginner {
+    color: white;
     background-color: #B24A33;
 }
 #location {
+    color: white;
     background-color: #D48128;
 }
 }

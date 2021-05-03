@@ -438,13 +438,21 @@ a {
 /* =============
     Hero aka Section 1
 ============= */
-#hero img {
+#hero > div img {
+  display: block;
   max-width: 100%;
 }
+#hero > div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+}
 #hero #beginner {
+  color: white;
   background-color: #B24A33;
 }
 #hero #location {
+  color: white;
   background-color: #D48128;
 }
 
