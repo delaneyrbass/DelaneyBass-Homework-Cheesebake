@@ -412,6 +412,7 @@ a {
 ============= */
 #footer {
   display: grid;
+  grid-template-columns: 16px auto 16px;
   grid-template-areas: ".footer";
 }
 #footer > div {
@@ -420,18 +421,18 @@ a {
 #footer > div ul {
   display: grid;
   gap: 18px;
-  grid-template-areas: "#nyc" "#cali" "#mass" "#news" "#socials";
+  grid-template-areas: "#f1" "#f2" "#f3";
 }
 @media (min-width: 768px) {
   #footer > div ul {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "#nyc #news" "#cali #socials" "#mass";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "#f1 #f2" "#f1 #f3";
   }
 }
 @media (min-width: 1024px) {
   #footer > div ul {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "#nyc #news #socials" "#cali" "#mass";
+    grid-template-areas: "#f1 #f2 #f3";
   }
 }
 
@@ -459,26 +460,16 @@ a {
 /* =============
     Hero 2 aka Section 2
 ============= */
-#hero-2 {
+section {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "near tips";
 }
-#hero-2 #near {
-  display: grid;
-  grid-template-areas: 16px auto "cheesecake slices";
+section section#near {
+  grid-area: near;
 }
-#hero-2 #tips {
-  display: grid;
-  grid-template-columns: 16px auto "cheesecake slices";
-  grid-template-areas: ".hero-2";
-}
-#hero-2 ul {
-  display: grid;
-  gap: 0px;
-  grid-template-areas: "Hero-1" "Hero-2";
-}
-#hero-2 ul img {
-  max-width: 100%;
+section section#tips {
+  grid-area: tips;
 }
 
 /* =============

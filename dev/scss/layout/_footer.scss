@@ -3,6 +3,7 @@
 ============= */
 #footer{
     display: grid;
+    grid-template-columns: 16px auto 16px;
     grid-template-areas: ".footer";
 
     >div {
@@ -11,27 +12,23 @@
             display: grid;
             gap: 18px;
             grid-template-areas: 
-            "#nyc"
-            "#cali"
-            "#mass"
-            "#news"
-            "#socials"
+           "#f1"
+           "#f2"
+           "#f3"
         ;
 
             @include md {
-                grid-template-columns: 50% auto;
+                grid-template-columns: repeat(2,1fr);
                 grid-template-areas: 
-                "#nyc #news"
-                "#cali #socials"
-                "#mass"
+                "#f1 #f2"
+                "#f1 #f3"
                 ;
             }
             @include lg {
                 grid-template-columns: repeat(3,1fr);
                 grid-template-areas: 
-                "#nyc #news #socials"
-                "#cali"
-                "#mass"
+                "#f1 #f2 #f3"
+               
                 ;
             }
         }
