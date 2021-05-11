@@ -1,37 +1,102 @@
 /* =============
     Footer
 ============= */
-#footer{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ".footer";
+// #footer{
+//     display: grid;
+//     grid-template-columns: 16px auto 16px;
+//     grid-template-areas: ".footer";
 
-    >div {
-        grid-area: footer;
-        ul {
-            display: grid;
-            gap: 18px;
-            grid-template-areas: 
-           "#f1"
-           "#f2"
-           "#f3"
-        ;
+//     >div {
+//         grid-area: footer;
+//         ul {
+//             display: grid;
+//             gap: 18px;
+//             grid-template-areas: 
+//            "#f1"
+//            "#f2"
+//            "#f3"
+//         ;
 
-            @include md {
-                grid-template-columns: repeat(2,1fr);
-                grid-template-areas: 
-                "#f1 #f2"
-                "#f1 #f3"
-                ;
-            }
-            @include lg {
-                grid-template-columns: repeat(3,1fr);
-                grid-template-areas: 
-                "#f1 #f2 #f3"
+//             @include md {
+//                 grid-template-columns: repeat(2,1fr);
+//                 grid-template-areas: 
+//                 "#f1 #f2"
+//                 "#f1 #f3"
+//                 ;
+//             }
+//             @include lg {
+//                 grid-template-columns: repeat(3,1fr);
+//                 grid-template-areas: 
+//                 "#f1 #f2 #f3"
                
-                ;
-            }
-        }
+//                 ;
+//             }
+//         }
 
-    }
+//     }
+// }
+footer {
+
+	@include xl {
+		display: grid;
+		grid-template-areas: ". footer .";
+		grid-template-columns: auto 1200px auto;
+	}
+
+	>div {
+		display: grid;
+		gap: 24px;
+        
+
+		@include md {
+			grid-template-areas: "locations newsletter"
+				"locations social";
+			grid-template-columns: 50% auto;
+		}
+
+		@include lg {
+			grid-template-areas: "locations newsletter social";
+			grid-template-columns: repeat(3, 1fr);
+		}
+
+		@include xl {
+			grid-area: footer;
+		}
+
+
+		#locations {
+			@include md {
+				grid-area: locations;
+			}
+		}
+
+		#newsletter {
+			@include md {
+				grid-area: newsletter;
+			}
+
+			form {
+				input {
+					
+					border: none;
+				}
+			}
+		}
+
+		#social {
+			@include md {
+				grid-area: social;
+			}
+
+
+			ul {
+				border: none;
+
+				li {
+
+					
+				}
+			}
+		}
+	}
 }

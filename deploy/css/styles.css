@@ -410,32 +410,55 @@ a {
 /* =============
     Footer
 ============= */
-#footer {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ".footer";
+@media (min-width: 1200px) {
+  footer {
+    display: grid;
+    grid-template-areas: ". footer .";
+    grid-template-columns: auto 1200px auto;
+  }
 }
-#footer > div {
-  grid-area: footer;
-}
-#footer > div ul {
+footer > div {
   display: grid;
-  gap: 18px;
-  grid-template-areas: "#f1" "#f2" "#f3";
+  gap: 24px;
 }
 @media (min-width: 768px) {
-  #footer > div ul {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "#f1 #f2" "#f1 #f3";
+  footer > div {
+    grid-template-areas: "locations newsletter" "locations social";
+    grid-template-columns: 50% auto;
   }
 }
 @media (min-width: 1024px) {
-  #footer > div ul {
+  footer > div {
+    grid-template-areas: "locations newsletter social";
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "#f1 #f2 #f3";
   }
 }
-
+@media (min-width: 1200px) {
+  footer > div {
+    grid-area: footer;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #locations {
+    grid-area: locations;
+  }
+}
+@media (min-width: 768px) {
+  footer > div #newsletter {
+    grid-area: newsletter;
+  }
+}
+footer > div #newsletter form input {
+  border: none;
+}
+@media (min-width: 768px) {
+  footer > div #social {
+    grid-area: social;
+  }
+}
+footer > div #social ul {
+  border: none;
+}
 /* =============
     Hero aka Section 1
 ============= */
