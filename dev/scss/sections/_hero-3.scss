@@ -4,6 +4,8 @@
 #hero-3{
     display: grid;
     grid-template-areas: ".section-3";
+    padding: 10px;
+    margin: 10px;
     
 
     >div {
@@ -39,16 +41,22 @@
 }
 #coco{
     background-color: #FFEDDB;
+    padding: 10px;
+    
 }
 #jelly{
     background-color: #FFEDDB;
+    padding: 10px;
 }
 #classic{
     background-color: #FFEDDB;
+    padding: 10px;
 }
 #single{
     background-color: #FFEDDB;
+    padding: 10px;
 }
 #orange{
     background-color: #FFEDDB;
+    padding: 10px;
 }
