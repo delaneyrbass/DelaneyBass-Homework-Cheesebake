@@ -485,7 +485,7 @@ footer > div #social ul {
 ============= */
 section {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 50% 50%;
   grid-template-areas: "near tips";
 }
 section section#near {
@@ -493,6 +493,18 @@ section section#near {
 }
 section section#tips {
   grid-area: tips;
+}
+@media (min-width: 768px) {
+  section {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "near tips";
+  }
+}
+@media (min-width: 1024px) {
+  section {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#near #tips";
+  }
 }
 
 /* =============

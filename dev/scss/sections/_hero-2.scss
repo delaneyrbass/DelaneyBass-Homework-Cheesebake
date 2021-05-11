@@ -37,7 +37,7 @@
 
 section{
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     grid-template-areas: 
     "near tips";
     section#near{
@@ -45,5 +45,17 @@ section{
     }
     section#tips{
         grid-area: tips;
+    }
+    @include md {
+        grid-template-columns: 50% auto;
+        grid-template-areas: 
+        "near tips"
+        ;
+    }
+    @include lg {
+        grid-template-columns: 50% auto;
+        grid-template-areas: 
+        "#near #tips"
+        ;
     }
 }
