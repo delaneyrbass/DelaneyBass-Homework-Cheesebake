@@ -353,11 +353,15 @@ template {
     Base
 ============= */
 h1 {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Concert One", cursive;
 }
 
 h2 {
-  font-family: "Antic Slab", serif;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
 }
 
 ul {
@@ -410,6 +414,9 @@ a {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #F2C391;
+}
 @media (min-width: 1200px) {
   footer {
     display: grid;
@@ -471,6 +478,12 @@ footer > div #social ul {
   margin: 0;
   padding: 0px;
 }
+@media (min-width: 768px) {
+  #hero > div {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#beginner #locations";
+  }
+}
 #hero #beginner {
   color: white;
   background-color: #B24A33;
@@ -479,12 +492,6 @@ footer > div #social ul {
 #hero #location {
   color: white;
   background-color: #D48128;
-}
-@media (min-width: 768px) {
-  #hero {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "#beginner #location";
-  }
 }
 
 /* =============
@@ -497,19 +504,40 @@ footer > div #social ul {
 #hero-2 #near {
   display: grid;
   grid-template-areas: 16px auto "cheesecake slices";
+  background-color: #99C2A2;
+}
+@media (min-width: 768px) {
+  #hero-2 #near {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#near #tips";
+  }
 }
 #hero-2 #tips {
   display: grid;
   grid-template-columns: 16px auto "cheesecake slices";
   grid-template-areas: ".hero-2";
+  background-color: #99C2A2;
 }
 #hero-2 ul {
   display: grid;
-  gap: 0px;
+  gap: 16px;
+  padding: 16px;
   grid-template-areas: "Hero-1" "Hero-2";
 }
 #hero-2 ul img {
   max-width: 100%;
+}
+@media (min-width: 768px) {
+  #hero-2 ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#Hero-1 #Hero-2";
+  }
+}
+@media (min-width: 1024px) {
+  #hero-2 ul {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#Hero-1 #Hero-2";
+  }
 }
 
 /* =============
@@ -538,4 +566,24 @@ footer > div #social ul {
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas: "#coco #jelly #classic" " #single #orange";
   }
+}
+
+#coco {
+  background-color: #FFEDDB;
+}
+
+#jelly {
+  background-color: #FFEDDB;
+}
+
+#classic {
+  background-color: #FFEDDB;
+}
+
+#single {
+  background-color: #FFEDDB;
+}
+
+#orange {
+  background-color: #FFEDDB;
 }

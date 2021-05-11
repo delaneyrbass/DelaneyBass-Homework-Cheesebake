@@ -5,10 +5,19 @@
     display: grid;
     grid-template-columns: auto;
 
+    
+
     #near{
         display: grid;
         grid-template-areas: 16px auto "cheesecake slices";
 
+        background-color: #99C2A2;
+        @include md {
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "#near #tips"
+            ;
+        }
         img {
             
         }
@@ -19,18 +28,35 @@
         16px auto "cheesecake slices";
         grid-template-areas: ".hero-2";
 
+        background-color: #99C2A2;
+
         img {
             
         }
+        
     }
+
     ul {
         display: grid;
-        gap: 0px;
+        gap: 16px;
+        padding: 16px;
         grid-template-areas: 
         "Hero-1"
         "Hero-2";
         img {
             max-width: 100%;
+        }
+        @include md {
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "#Hero-1 #Hero-2"
+            ;
+        }
+        @include lg {
+            grid-template-columns: 50% auto;
+            grid-template-areas: 
+            "#Hero-1 #Hero-2"
+            ;
         }
     }
 }
