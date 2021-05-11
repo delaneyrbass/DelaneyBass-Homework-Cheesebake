@@ -1,61 +1,71 @@
 /* =============
     Hero 2 aka Section 2
 ============= */
-// #hero-2 {
+#hero-2 {
+    display: grid;
+    grid-template-columns: auto;
+
+    #near{
+        display: grid;
+        grid-template-areas: 16px auto "cheesecake slices";
+
+        img {
+            
+        }
+    }
+    #tips{
+        display: grid;
+        grid-template-columns: 
+        16px auto "cheesecake slices";
+        grid-template-areas: ".hero-2";
+
+        img {
+            
+        }
+    }
+    ul {
+        display: grid;
+        gap: 0px;
+        grid-template-areas: 
+        "Hero-1"
+        "Hero-2";
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+// section{
 //     display: grid;
-//     grid-template-columns: auto;
-
-//     #near{
-//         display: grid;
-//         grid-template-areas: 16px auto "cheesecake slices";
-
-//         img {
-            
-//         }
-//     }
-//     #tips{
-//         display: grid;
-//         grid-template-columns: 
-//         16px auto "cheesecake slices";
-//         grid-template-areas: ".hero-2";
-
-//         img {
-            
-//         }
-//     }
+//     grid-template-columns: 50% 50%;
+//     grid-template-areas: 
+//     "near tips";
 //     ul {
 //         display: grid;
 //         gap: 0px;
 //         grid-template-areas: 
-//         "Hero-1"
-//         "Hero-2";
+//          "Hero-1"
+//          "Hero-2";
 //         img {
 //             max-width: 100%;
-//         }
+//          }
+//     section#near{
+//         grid-area: near;
 //     }
-// }
+//     section#tips{
+//         grid-area: tips;
+//     }
+//     @include md {
+//         grid-template-columns: 50% auto;
+//         grid-template-areas: 
+//         "near tips"
+//         ;
+//     }
+//     @include lg {
+//         grid-template-columns: 50% auto;
+//         grid-template-areas: 
+//         "#near #tips"
+//         ;
+//     }
 
-section{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-areas: 
-    "near tips";
-    section#near{
-        grid-area: near;
-    }
-    section#tips{
-        grid-area: tips;
-    }
-    @include md {
-        grid-template-columns: 50% auto;
-        grid-template-areas: 
-        "near tips"
-        ;
-    }
-    @include lg {
-        grid-template-columns: 50% auto;
-        grid-template-areas: 
-        "#near #tips"
-        ;
-    }
-}
+// }

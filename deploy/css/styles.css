@@ -474,37 +474,42 @@ footer > div #social ul {
 #hero #beginner {
   color: white;
   background-color: #B24A33;
+  max-width: auto;
 }
 #hero #location {
   color: white;
   background-color: #D48128;
 }
+@media (min-width: 768px) {
+  #hero {
+    grid-template-columns: 50% auto;
+    grid-template-areas: "#beginner #location";
+  }
+}
 
 /* =============
     Hero 2 aka Section 2
 ============= */
-section {
+#hero-2 {
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: "near tips";
+  grid-template-columns: auto;
 }
-section section#near {
-  grid-area: near;
+#hero-2 #near {
+  display: grid;
+  grid-template-areas: 16px auto "cheesecake slices";
 }
-section section#tips {
-  grid-area: tips;
+#hero-2 #tips {
+  display: grid;
+  grid-template-columns: 16px auto "cheesecake slices";
+  grid-template-areas: ".hero-2";
 }
-@media (min-width: 768px) {
-  section {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "near tips";
-  }
+#hero-2 ul {
+  display: grid;
+  gap: 0px;
+  grid-template-areas: "Hero-1" "Hero-2";
 }
-@media (min-width: 1024px) {
-  section {
-    grid-template-columns: 50% auto;
-    grid-template-areas: "#near #tips";
-  }
+#hero-2 ul img {
+  max-width: 100%;
 }
 
 /* =============

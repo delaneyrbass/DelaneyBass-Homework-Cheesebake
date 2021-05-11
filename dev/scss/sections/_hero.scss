@@ -18,9 +18,16 @@
 #beginner {
     color: white;
     background-color: #B24A33;
+    max-width: auto;
 }
 #location {
     color: white;
     background-color: #D48128;
+}
+@include md {
+    grid-template-columns: 50% auto;
+    grid-template-areas: 
+    "#beginner #location"
+    ;
 }
 }
