@@ -125,13 +125,18 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/header\/logo-01-01.png.tmp$$" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/deploy\/img\/header\/logo-01-01.png" : {
+      "ft" : 32768,
+      "iS" : 53964,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/header\/logo-01-01.png.tmp$$",
-      "oF" : 0
+      "oAP" : "\/deploy\/img\/header\/logo-01-01.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/header\/logo-01.png" : {
       "ft" : 32768,
@@ -361,6 +366,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/homeworkDemo 2 2 3.sketch",
+      "oF" : 0
+    },
+    "\/design\/homeworkDemo 2 2 4.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/homeworkDemo 2 2 4.sketch",
       "oF" : 0
     },
     "\/design\/homeworkDemo 2 2.sketch" : {
