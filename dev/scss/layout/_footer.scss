@@ -37,6 +37,7 @@
 // }
 footer {
 background-color: #F2C391;
+font: #B5948F;
 	@include xl {
 		display: grid;
 		grid-template-areas: ". footer .";

@@ -112,6 +112,79 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/header\/CheeseBake.png" : {
+      "ft" : 32768,
+      "iS" : 4440,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/CheeseBake.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/header\/logo-01-01.png.tmp$$" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/logo-01-01.png.tmp$$",
+      "oF" : 0
+    },
+    "\/deploy\/img\/header\/logo-01.png" : {
+      "ft" : 32768,
+      "iS" : 17392,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/logo-01.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/header\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 3486,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/header\/New York City.png" : {
+      "ft" : 32768,
+      "iS" : 1799,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/New York City.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/header\/Untitled-1-01 Copy 2.png" : {
+      "ft" : 32768,
+      "iS" : 3486,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/header\/Untitled-1-01 Copy 2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/section-1\/Hero-1.png" : {
       "ft" : 32768,
       "iS" : 187622,
@@ -280,6 +353,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/homeworkDemo 2 2 2.sketch",
+      "oF" : 0
+    },
+    "\/design\/homeworkDemo 2 2 3.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/homeworkDemo 2 2 3.sketch",
       "oF" : 0
     },
     "\/design\/homeworkDemo 2 2.sketch" : {

@@ -1,6 +1,14 @@
 /* =============
     Header
 ============= */
-#header{
+header {
     background-color: #F2C391;
+    >div {
+        display: grid;
+        grid-template-areas: 
+        "burger-container main-navigation"
+        "nav nav";
+        padding: 10px;
+        grid-template-columns: 50px auto;
+    }
 }

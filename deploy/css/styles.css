@@ -353,15 +353,15 @@ template {
     Base
 ============= */
 h1 {
-  font-family: "Concert One", cursive;
+  font-family: "Roboto Slab", serif;
 }
 
 h2 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -407,8 +407,14 @@ a {
 /* =============
     Header
 ============= */
-#header {
+header {
   background-color: #F2C391;
+}
+header > div {
+  display: grid;
+  grid-template-areas: "burger-container main-navigation" "nav nav";
+  padding: 10px;
+  grid-template-columns: 50px auto;
 }
 
 /* =============
@@ -416,6 +422,7 @@ a {
 ============= */
 footer {
   background-color: #F2C391;
+  font: #B5948F;
 }
 @media (min-width: 1200px) {
   footer {
